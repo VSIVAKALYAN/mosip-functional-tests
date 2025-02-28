@@ -509,7 +509,7 @@ modules:
   injiverify:
     enabled: false
     image:
-      repository: mosipqa/apitest-injiverify
+      repository: mosipqa/apitest-inji-verify
       tag: develop
       pullPolicy: Always
 
