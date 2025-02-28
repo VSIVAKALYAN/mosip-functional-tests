@@ -506,6 +506,12 @@ modules:
       repository: mosipqa/apitest-esignet-signup
       tag: develop
       pullPolicy: Always
+  injiverify:
+    enabled: false
+    image:
+      repository: mosipqa/apitest-injiverify
+      tag: develop
+      pullPolicy: Always
 
 crontime: "0 3 * * *"    ## run cronjob every day at 3 AM (time hr: 0-23 )
 
